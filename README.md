@@ -6,7 +6,6 @@
 - **Institution**: Department of General Psychology, University of Padova
 - **Address**: Via Venezia, 8 – 35131 Padova, Italy
 - **Email**: giulio.vidotto@unipd.it
-
 ### Research Areas
 - Psychometrics and Mathematical Psychology
 - Perception and Psychophysics
