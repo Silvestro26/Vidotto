@@ -1,11 +1,10 @@
 # Giulio Vidotto
 
-## Full Professor of Psychometrics
+## Professor Emeritus of Psychometrics
 
 ### Academic Profile
-- **Position**: Full Professor
-- **Institution**: University of Padova
-- **Address**: Via 8 Febbraio, 2, 35122 Padova PD, Italy
+- **Institution**: Department of General Psychology, University of Padova
+- **Address**: Via Venezia, 8 – 35131 Padova, Italy
 - **Email**: giulio.vidotto@unipd.it
 
 ### Research Areas
