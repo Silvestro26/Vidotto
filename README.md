@@ -29,5 +29,5 @@
 - [Zenodo](https://zenodo.org/search?q=Silvestro26)
 - [Loop Frontiers](https://www.frontiersin.org)
 ### Repository Contents
-- [Published Articles](Vidotto/published-articles)
-- [Work in Progress](Vidotto/work-in-progress)
+- [Published Articles](published-articles)
+- [Work in Progress](work-in-progress)
