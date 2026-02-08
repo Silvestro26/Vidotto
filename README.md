@@ -23,12 +23,13 @@
 - Studies on resilience and mental health during COVID-19
 - International collaborations (UC Irvine, UC San Diego, Murdoch University Australia)
 ### Useful Links
+- [ORCID](https://orcid.org/)
 - [Google Scholar](https://scholar.google.com)
 - [University of Padova Profile](https://www.unipd.it/en)
-- [Loop Frontiers](https://www.frontiersin.org)
 - [Research Portal Unipd](https://www.unipd.it/en)
-- [ORCID](https://orcid.org/)
-
+- [RPubs](https://rpubs.com/Silvestro26)
+- [Zenodo](https://zenodo.org/search?q=Silvestro26)
+- [Loop Frontiers](https://www.frontiersin.org)
 ### Repository Contents
 - [Published Articles](path/to/published-articles)
 - [Work in Progress](path/to/work-in-progress)
