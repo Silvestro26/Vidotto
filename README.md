@@ -17,10 +17,11 @@
 - Rasch Models
 - Structural Equation Modeling
 - Quality of Life
-
 ### Notable Contributions
-- [Details of contributions can be included here]  
-
+- Development and validation of CBA-2.0 assessment batteries and successive versions
+- Research on risk perception in adolescent driving behavior
+- Studies on resilience and mental health during COVID-19
+- International collaborations (UC Irvine, UC San Diego, Murdoch University Australia)
 ### Useful Links
 - [Google Scholar](https://scholar.google.com)
 - [University of Padova Profile](https://www.unipd.it/en)
