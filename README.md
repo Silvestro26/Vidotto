@@ -8,13 +8,14 @@
 - **Email**: giulio.vidotto@unipd.it
 ### Research Areas
 - Psychometrics and Mathematical Psychology
-- Perception and Psychophysics
-- Functional Measurement
-- Psychological Assessment
+- Measurement Theory and Validity
+- Functional Measurement and Information Integration
+- Psychological Assessment and Clinical Decision Support
+- Rasch Models and Latent Variable Models
 - Knowledge Space Theory
-- Rasch Models
-- Structural Equation Modeling
-- Quality of Life
+- Human–AI Interaction in Assessment and Decision-Making
+- Epistemology of Measurement and Classification
+- Quality of Life and Outcome Evaluation
 ### Notable Contributions
 - Development and validation of CBA-2.0 assessment batteries and successive versions
 - Research on risk perception in adolescent driving behavior
