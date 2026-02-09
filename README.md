@@ -22,7 +22,7 @@
 - Empirical and theoretical studies on risk perception and adaptive behavior (e.g. adolescent driving, resilience processes)
 - Assessment of mental health and resilience under systemic stress conditions (COVID-19 and beyond)
 - Development of critical frameworks for the use of computational models and AI systems in psychological assessment and decision support
-- International research collaborations (University of California, Irvine; University of California, San Diego; Murdoch University)### Useful Links 
+- International research collaborations (University of California, Irvine; University of California, San Diego; Murdoch University)
 ### Useful Links
 - [ORCID](https://orcid.org/)
 - [Google Scholar](https://scholar.google.com)
