@@ -47,8 +47,8 @@ function publicationMarkup(publication) {
   const links = publication.doi
     ? `<a class="badge" href="https://doi.org/${encodeURI(publication.doi)}" target="_blank" rel="noopener">DOI</a>`
     : "";
-  const scopus = publication.url
-    ? `<a class="badge" href="${escapeHtml(publication.url)}" target="_blank" rel="noopener">Scopus</a>`
+  const external = publication.url
+    ? `<a class="badge" href="${escapeHtml(publication.url)}" target="_blank" rel="noopener">${state.category === "scopus" ? "Scopus" : "Link"}</a>`
     : "";
   return `
     <article class="publication">
@@ -57,7 +57,7 @@ function publicationMarkup(publication) {
       ${details ? `<p class="meta">${details}${publication.year ? ` (${escapeHtml(publication.year)})` : ""}</p>` : ""}
       <div class="badges">
         ${publication.type ? `<span class="badge">${escapeHtml(publication.type)}</span>` : ""}
-        ${links}${scopus}
+        ${links}${external}
       </div>
     </article>`;
 }
@@ -109,7 +109,13 @@ document.querySelectorAll(".tab").forEach((tab) => {
     year.value = "";
     type.value = "";
     populateFilters(state.category === "scopus" ? state.scopus : state.other);
-    bibtexLink.hidden = state.category !== "scopus";
+    bibtexLink.hidden = false;
+    bibtexLink.textContent = state.category === "scopus"
+      ? "Download Scopus BibTeX"
+      : "Download Other BibTeX";
+    bibtexLink.href = state.category === "scopus"
+      ? "scopus.bib"
+      : "other-publications.bib";
     render();
   });
 });
@@ -131,4 +137,17 @@ fetch("publications.json")
   })
   .catch((error) => {
     publications.innerHTML = `<p class="empty">${escapeHtml(error.message)}</p>`;
+  });
+
+fetch("other-publications.json")
+  .then((response) => {
+    if (!response.ok) throw new Error(`Could not load other publications: ${response.status}`);
+    return response.json();
+  })
+  .then((items) => {
+    state.other = items;
+    document.querySelector("#other-count").textContent = items.length;
+  })
+  .catch((error) => {
+    console.error(error);
   });
