@@ -139,15 +139,7 @@ fetch("publications.json?v=20261121")
     publications.innerHTML = `<p class="empty">${escapeHtml(error.message)}</p>`;
   });
 
-fetch("other-publications.json?v=20261121")
-  .then((response) => {
-    if (!response.ok) throw new Error(`Could not load other publications: ${response.status}`);
-    return response.json();
-  })
-  .then((items) => {
-    state.other = items;
-    document.querySelector("#other-count").textContent = items.length;
-  })
-  .catch((error) => {
-    console.error(error);
-  });
+state.other = Array.isArray(window.OTHER_PUBLICATIONS)
+  ? window.OTHER_PUBLICATIONS
+  : [];
+document.querySelector("#other-count").textContent = state.other.length;
