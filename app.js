@@ -124,7 +124,7 @@ search.addEventListener("input", render);
 year.addEventListener("change", render);
 type.addEventListener("change", render);
 
-fetch("publications.json")
+fetch("publications.json?v=20261121")
   .then((response) => {
     if (!response.ok) throw new Error(`Could not load publications: ${response.status}`);
     return response.json();
@@ -139,7 +139,7 @@ fetch("publications.json")
     publications.innerHTML = `<p class="empty">${escapeHtml(error.message)}</p>`;
   });
 
-fetch("other-publications.json")
+fetch("other-publications.json?v=20261121")
   .then((response) => {
     if (!response.ok) throw new Error(`Could not load other publications: ${response.status}`);
     return response.json();
