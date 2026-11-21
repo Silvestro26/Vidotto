@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giulio Vidotto - Publications</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Academic publications</p>
+      <h1>Giulio Vidotto</h1>
+      <p>Full Professor of Psychometrics, University of Padova</p>
+    </header>
+
+    <nav class="tabs" aria-label="Publication categories">
+      <button class="tab active" type="button" data-category="scopus">Scopus <span id="scopus-count"></span></button>
+      <button class="tab" type="button" data-category="other">Other publications <span id="other-count">0</span></button>
+    </nav>
+
+    <section class="filters" aria-label="Publication filters">
+      <label>
+        Search
+        <input id="search" type="search" placeholder="Title, author, journal">
+      </label>
+      <label>
+        Year
+        <select id="year">
+          <option value="">All years</option>
+        </select>
+      </label>
+      <label>
+        Type
+        <select id="type">
+          <option value="">All types</option>
+        </select>
+      </label>
+      <a id="bibtex-link" class="secondary" href="scopus.bib" download>Download BibTeX</a>
+    </section>
+
+    <p id="result-count" class="result-count" role="status"></p>
+    <section id="publications" class="publications" aria-live="polite"></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
